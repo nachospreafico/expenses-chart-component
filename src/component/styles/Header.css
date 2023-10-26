@@ -1,0 +1,59 @@
+header {
+  background-color: #ec755d;
+  height: 97px;
+  width: 343px;
+  border-radius: 10px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  color: white;
+  gap: 7px;
+}
+
+.header-logo {
+  margin-right: 24px;
+}
+
+.balance-text {
+  margin: 0;
+}
+
+.balance-qty {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media only screen and (641px <= width < 1280px) {
+  header {
+    height: 108px;
+    width: 440px;
+  }
+
+  .balance-qty {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  header {
+    height: 125px;
+    width: 540px;
+  }
+
+  .balance-text {
+    font-size: 18px;
+  }
+
+  .balance-qty {
+    font-size: 2rem;
+  }
+}

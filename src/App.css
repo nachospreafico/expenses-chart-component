@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: #f8e9dd;
+  font-family: DM Sans;
+}
+
+.background {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 4%;
+}
